@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .text-giant {
+    font-size: 12rem;
+    line-height: 1;
+  }
+}
