@@ -1,8 +1,8 @@
 {
-  "name": "my-business-site",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
@@ -19,7 +19,15 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
+    "@swc/helpers": "^0.3.0",
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "alpinejs": "^3.5.1"
-  }
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ]
 }
