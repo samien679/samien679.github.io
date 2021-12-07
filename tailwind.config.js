@@ -1,13 +1,11 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [],
+  purge: ["./src/*.{html,js}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-       
        'display': ['Road Rage'],
-       
       },
     colors: {
       // Build your palette here
