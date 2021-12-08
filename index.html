@@ -30,7 +30,7 @@
     @scroll.window="reactOnScroll()"
 >
         <div :class="fade || 'transition-all duration-500 ease-in-out opacity-0'"
-        class="mx-auto px-4 bg-cover bg-clip-border bg-center bg-herobg h-screen"
+        class="mx-auto px-4 bg-cover bg-center md:bg-left bg-herobg h-screen"
     >
     
       <div  
@@ -64,14 +64,7 @@
     </div> -->
     
       </div>
-    </div>
-    
-<!-- Background fade -->
-    <!-- <div class="-mt-12 bg-gradient-to-b from-transparent to-gray-800 h-12 w-full z-10">
-        </div>
-
-    </div> -->
-    
+    </div>   
     
     <!-- About me -->
     <div 
@@ -105,28 +98,28 @@
           <h3 class="my-8 text-3xl text-center font-bold text-gray-800">Skills</h3>
           <div class="justify-center flex flex-wrap items-center">
             
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="HTML5">
+          <div class="p-4 m-4" title="HTML5">
             <img src="img/html5.svg" alt="HTML5" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="CSS3">
+          <div class="p-4 m-4" title="CSS3">
             <img src="img/css3.svg" alt="CSS3" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="Javascript">
+          <div class="p-4 m-4" title="Javascript">
             <img src="img/javascript.svg" alt="Javascript" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="Vue.js">
+          <div class="p-4 m-4" title="Vue.js">
                 <img src="img/vuejs.svg" alt="Vue.js" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="PHP">
+          <div class="p-4 m-4" title="PHP">
                 <img src="img/php-icon.svg" alt="PHP" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="Laravel">
+          <div class="p-4 m-4" title="Laravel">
                 <img src="img/laravel-icon.svg" alt="Laravel" class="w-24 h-24"/>
           </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="Tailwind CSS">
+          <div class="p-4 m-4" title="Tailwind CSS">
                 <img src="img/tailwind-css.svg" alt="Tailwind CSS" class="w-24 h-24"/>
         </div>
-          <div class="p-4 m-4 bg-blue-600 border border-blue-800 shadow-md" title="MySQL">
+          <div class="p-4 m-4" title="MySQL">
                 <img src="img/mysql-official.svg" alt="MySQL" class="w-24 h-24"/>
         </div>
         </div>
@@ -137,7 +130,7 @@
           from-gray-500
           to-gray-300
           border-2 border-gray-800">
-        <h3 class="text-3xl my-8 text-center font-bold text-gray-800 capitalize">My work</h3>
+        <h3 class="text-3xl my-8 text-left ml-8 font-bold text-gray-800 capitalize">My work</h3>
           <div class="m-8" title="Quotia">
             <h3 class="text-2xl mt-8 font-semibold text-gray-900 underline">Quotia</h3>
             <p class="mt-2 mb-8 text-gray-900">Create formatted PDF quotes for your HVAC clients.</p>

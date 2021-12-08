@@ -203,10 +203,6 @@ img,video{
   position:absolute
 }
 
-.z-10{
-  z-index:10
-}
-
 .z-20{
   z-index:20
 }
@@ -259,10 +255,6 @@ img,video{
   margin-top:8rem
 }
 
-.-mt-12{
-  margin-top:-3rem
-}
-
 .-mr-16{
   margin-right:-4rem
 }
@@ -283,6 +275,10 @@ img,video{
   margin-bottom:-3rem
 }
 
+.ml-8{
+  margin-left:2rem
+}
+
 .ml-auto{
   margin-left:auto
 }
@@ -293,10 +289,6 @@ img,video{
 
 .table{
   display:table
-}
-
-.h-12{
-  height:3rem
 }
 
 .h-24{
@@ -433,11 +425,6 @@ img,video{
   border-color:rgba(6,95,70,var(--tw-border-opacity))
 }
 
-.border-blue-800{
-  --tw-border-opacity:1;
-  border-color:rgba(21,94,117,var(--tw-border-opacity))
-}
-
 .bg-gray-300{
   --tw-bg-opacity:1;
   background-color:rgba(203,213,225,var(--tw-bg-opacity))
@@ -453,11 +440,6 @@ img,video{
   background-color:rgba(4,120,87,var(--tw-bg-opacity))
 }
 
-.bg-blue-600{
-  --tw-bg-opacity:1;
-  background-color:rgba(8,145,178,var(--tw-bg-opacity))
-}
-
 .hover\:bg-green-800:hover{
   --tw-bg-opacity:1;
   background-color:rgba(6,95,70,var(--tw-bg-opacity))
@@ -471,17 +453,8 @@ img,video{
   background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))
 }
 
-.bg-gradient-to-b{
-  background-image:linear-gradient(to bottom,var(--tw-gradient-stops))
-}
-
 .bg-herobg{
   background-image:url(bg.4a6b1347.9830e6a5.jpeg)
-}
-
-.from-transparent{
-  --tw-gradient-from:#0000;
-  --tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,#0000)
 }
 
 .from-gray-500{
@@ -493,16 +466,8 @@ img,video{
   --tw-gradient-to:#cbd5e1
 }
 
-.to-gray-800{
-  --tw-gradient-to:#1e293b
-}
-
 .bg-cover{
   background-size:cover
-}
-
-.bg-clip-border{
-  background-clip:initial
 }
 
 .bg-center{
@@ -549,6 +514,10 @@ img,video{
 
 .pb-52{
   padding-bottom:13rem
+}
+
+.text-left{
+  text-align:left
 }
 
 .text-center{
@@ -664,15 +633,7 @@ img,video{
 }
 
 *,:after,:before{
-  --tw-shadow:0 0 #0000
-}
-
-.shadow-md{
-  --tw-shadow:0 4px 6px -1px #0000001a,0 2px 4px -1px #0000000f;
-  box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
-}
-
-*,:after,:before{
+  --tw-shadow:0 0 #0000;
   --tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);
   --tw-ring-offset-width:0px;
   --tw-ring-offset-color:#fff;
@@ -715,6 +676,12 @@ img,video{
 
   .sm\:ml-auto{
     margin-left:auto
+  }
+}
+
+@media (min-width:768px){
+  .md\:bg-left{
+    background-position:0
   }
 }
 
