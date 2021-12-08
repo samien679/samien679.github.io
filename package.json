@@ -2,11 +2,13 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "watch-css": "parcel watch css/tailwind.css --dist-dir dist/css --public-url /css",
+    "build-css": "parcel build css/tailwind.css --dist-dir dist/css --public-url /css",
+    "production-css": "parcel build css/tailwind.css --dist-dir dist/ --public-url /css --no-content-hash --no-source-maps"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
     "autoprefixer": "^10.4.0",
     "parcel": "^2.0.1",
     "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
     "sharp": "^0.29.2",
     "tailwindcss": "^2.2.19"
   },

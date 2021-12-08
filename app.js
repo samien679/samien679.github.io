@@ -1,4 +1,4 @@
-import "/css/tailwind.css";
+import tailwindcss from "./css/tailwind.css";
 
 import Alpine from 'alpinejs'
 
