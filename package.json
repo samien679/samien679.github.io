@@ -8,7 +8,7 @@
     "build": "parcel build index.html",
     "watch-css": "parcel watch css/tailwind.css --dist-dir dist/css --public-url /css",
     "build-css": "parcel build css/tailwind.css --dist-dir dist/css --public-url /css",
-    "production-css": "parcel build css/tailwind.css --dist-dir dist/ --public-url /css --no-content-hash --no-source-maps"
+    "production-css": "parcel build css/tailwind.css --dist-dir dist/css --public-url /css --no-content-hash --no-source-maps"
   },
   "keywords": [],
   "author": "",
