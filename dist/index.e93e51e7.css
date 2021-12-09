@@ -203,10 +203,6 @@ img,video{
   position:absolute
 }
 
-.z-20{
-  z-index:20
-}
-
 .m-4{
   margin:1rem
 }
@@ -255,8 +251,8 @@ img,video{
   margin-top:8rem
 }
 
-.-mr-16{
-  margin-right:-4rem
+.mr-4{
+  margin-right:1rem
 }
 
 .mb-4{
@@ -271,16 +267,8 @@ img,video{
   margin-bottom:7rem
 }
 
-.-mb-12{
-  margin-bottom:-3rem
-}
-
 .ml-8{
   margin-left:2rem
-}
-
-.ml-auto{
-  margin-left:auto
 }
 
 .flex{
@@ -289,10 +277,6 @@ img,video{
 
 .table{
   display:table
-}
-
-.h-24{
-  height:6rem
 }
 
 .h-screen{
@@ -311,20 +295,12 @@ img,video{
   width:100%
 }
 
-.max-w-xs{
-  max-width:20rem
-}
-
 .max-w-2xl{
   max-width:42rem
 }
 
 .max-w-3xl{
   max-width:48rem
-}
-
-.origin-bottom-left{
-  transform-origin:bottom left
 }
 
 .transform{
@@ -336,10 +312,6 @@ img,video{
   --tw-scale-x:1;
   --tw-scale-y:1;
   transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.-rotate-2{
-  --tw-rotate:-2deg
 }
 
 @keyframes spin{
@@ -410,11 +382,6 @@ img,video{
   border-color:rgba(100,116,139,var(--tw-border-opacity))
 }
 
-.border-gray-700{
-  --tw-border-opacity:1;
-  border-color:rgba(51,65,85,var(--tw-border-opacity))
-}
-
 .border-gray-800{
   --tw-border-opacity:1;
   border-color:rgba(30,41,59,var(--tw-border-opacity))
@@ -443,10 +410,6 @@ img,video{
 .hover\:bg-green-800:hover{
   --tw-bg-opacity:1;
   background-color:rgba(6,95,70,var(--tw-bg-opacity))
-}
-
-.bg-gradient-to-r{
-  background-image:linear-gradient(to right,var(--tw-gradient-stops))
 }
 
 .bg-gradient-to-br{
@@ -492,8 +455,12 @@ img,video{
   padding-right:1.5rem
 }
 
-.pt-24{
-  padding-top:6rem
+.pt-2{
+  padding-top:.5rem
+}
+
+.pt-28{
+  padding-top:7rem
 }
 
 .pb-4{
@@ -514,6 +481,10 @@ img,video{
 
 .pb-52{
   padding-bottom:13rem
+}
+
+.pl-6{
+  padding-left:1.5rem
 }
 
 .text-left{
@@ -576,6 +547,10 @@ img,video{
   letter-spacing:.025em
 }
 
+.text-current{
+  color:currentColor
+}
+
 .text-gray-200{
   --tw-text-opacity:1;
   color:rgba(226,232,240,var(--tw-text-opacity))
@@ -601,9 +576,9 @@ img,video{
   color:rgba(162,28,175,var(--tw-text-opacity))
 }
 
-.hover\:text-gray-900:hover{
+.hover\:text-gray-200:hover{
   --tw-text-opacity:1;
-  color:rgba(15,23,42,var(--tw-text-opacity))
+  color:rgba(226,232,240,var(--tw-text-opacity))
 }
 
 .text-opacity-90{
